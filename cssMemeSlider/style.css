@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.wrapper {
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+.slides {
+  display: flex;
+  aspect-ratio: 16/9;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.slides img {
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+  object-fit: cover;
+}
+
+.navigation {
+  display: flex;
+  column-gap: 1rem;
+  padding-top: 2rem;
+  justify-content: end;
+}
+
+.navigation a {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: blueviolet;
+  opacity: 0.75;
+  transition: background-color ease 250ms;
+}
+
+.navigation a:hover {
+  opacity: 1;
+}
