@@ -125,7 +125,7 @@ a:active>.circle {
 
 @media (max-width:900px) {
   .mem-text {
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding-bottom: 1rem;
   }
 
@@ -156,7 +156,7 @@ a:active>.circle {
 
   .mem-text {
     font-size: 1.5rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
   }
 
   .slides {
@@ -170,42 +170,9 @@ a:active>.circle {
   }
 
   .mem-text {
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
   }
 
-
-  .slides {
-    margin-bottom: -4rem;
-  }
-}
-
-@media (max-width:500px) {
-
-  a {
-    width: 1.5rem;
-    height: 1.5rem;
-  }
-
-  .circle {
-    width: 1rem;
-    height: 1rem;
-  }
-
-  .mem-text {
-    padding-bottom: 1rem;
-  }
-
-  /* .mem-text {
-    font-size: 1rem;
-  }
-
-  .slides {
-    margin-bottom: -3rem;
-  } */
-  .mem-text {
-    font-size: 1.5rem;
-    padding-bottom: 1rem;
-  }
 
   .slides {
     margin-bottom: -4rem;
